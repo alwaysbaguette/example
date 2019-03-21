@@ -1,5 +1,7 @@
-npm install 
-node index.js
+- npm install 
+- node index.js
 
 
-express ejs multer
+- express 
+- ejs 
+- multer
