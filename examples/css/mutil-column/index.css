@@ -1,0 +1,12 @@
+.column{
+    column-count:2;
+    text-align:justify;
+    /* column-width: 400px; */
+    column-rule-style: solid;
+    /* column-rule-color: tomato;
+    color : powderblue; */
+}
+
+h1{
+    /* column-span: all; */
+}
