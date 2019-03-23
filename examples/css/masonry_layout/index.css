@@ -1,0 +1,45 @@
+#columns{
+    column-count: 3;
+    column-width:320px;
+    column-gap: 15px;
+}
+
+#columns figure{
+    display: inline-block;
+    border:1px solid rgb(0, 0, 0,0.2);
+    margin: 0 2px 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0,0.5);
+    -webkit-column-break-inside: avoid;
+}
+
+#columns figure img {
+    width:100%;
+    height: auto;
+    border-bottom: 15px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#columns figure figcaption{
+    font-size: .9rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+#columns smal{
+    font-size:1rem;
+    float: right;
+    text-transform: uppercase;
+    color : #aaa;
+}
+
+#columns small a {
+    color:#666;
+    text-decoration: none;
+    transition: .4s color;
+}
+
+#columns:hover figure:not(:hover){
+    opacity:0.4;
+}
