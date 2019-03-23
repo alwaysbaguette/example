@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    border-bottom:1px solid gray;
+    min-height: 10vh;
+}
+
+footer{
+    border-top:1px solid gray;
+    text-align: center;
+}
+
+.contents{
+    display: flex;
+    min-height: 80vh;
+}
+
+.contents nav{
+    border-right: 1px solid gray;
+}
+.contents main{
+    padding:10px;
+}
+.contents aside{
+    border-left: 1px solid gray;
+}
+
+nav, aside{
+    flex-basis: 150px;
+    flex-shrink: 0;
+}
